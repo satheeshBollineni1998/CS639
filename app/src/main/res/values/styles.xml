@@ -17,6 +17,9 @@
         <item name="android:textColorHint">?attr/colorPrimaryDark</item>
         <item name="boxStrokeColor">@color/textInputOutlineColor</item>
     </style>
+    <style name="Widget.Shrine.Backdrop" parent="">
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
 
     <style name="TextAppearance.Shrine.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -53,9 +56,7 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
-    <style name="Widget.Shrine.Backdrop" parent="">
-        <item name="android:background">?attr/colorAccent</item>
-    </style>
+
     <style name="Theme.Shrine.Autumn" parent="Theme.Shrine">
         <item name="colorPrimary">#FFCF44</item>
         <item name="colorPrimaryDark">#FD9725</item>
