@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_first.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FirstFragment">
+
+
+
+    <EditText
+        android:id="@+id/editTextLiters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter liters"
+        android:inputType="numberDecimal"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/buttonConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="This app was developed by Satheesh Bollineni"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
